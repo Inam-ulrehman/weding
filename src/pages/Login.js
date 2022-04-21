@@ -22,10 +22,11 @@ const Login = ({ setPerson }) => {
   return (
     <>
       <div>
+        <p>Please provide your details for personal card invitation</p>
         <form className='form' onSubmit={handleSubmit}>
           <div>
             <label className='form-label' htmlFor='name'>
-              name
+              First Name
             </label>
             <input
               className='form-input'
@@ -38,7 +39,7 @@ const Login = ({ setPerson }) => {
           </div>
           <div>
             <label className='form-label' htmlFor='email'>
-              Email
+              Last Name
             </label>
             <input
               className='form-input'

@@ -6,7 +6,7 @@ const Products = () => {
   console.log(data)
   return (
     <>
-      <h1>Products</h1>
+      <h1>Family Members</h1>
       <div>
         {data.map((item) => {
           const { id, name } = item
