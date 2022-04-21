@@ -23,7 +23,7 @@ const SingleProduct = () => {
       </div>
       <h3>{name}</h3>
       <Link className='btn' to={'/products'}>
-        More Family
+        Back to family
       </Link>
     </div>
   )
