@@ -6,7 +6,7 @@ const SingleProduct = () => {
   const productId = useParams()
   const { productsId: id } = productId
 
-  const singleProduct = data.products.find((item) => {
+  const singleProduct = data.find((item) => {
     return item.id === id
   })
 
