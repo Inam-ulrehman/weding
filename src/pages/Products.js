@@ -8,7 +8,7 @@ const Products = () => {
     <>
       <h1>Products</h1>
       <div>
-        {data.products.map((item) => {
+        {data.map((item) => {
           const { id, name } = item
           return (
             <div key={id}>

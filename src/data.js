@@ -33,11 +33,5 @@ const products = [
       'https://dl.airtable.com/.attachmentThumbnails/a6119fabf7256049cc0e8dbcdf536c9c/b0153f66',
   },
 ]
-const links = [
-  { name: 'Home', link: '/' },
-  { name: 'About', link: '/about' },
-  { name: 'Products', link: '/products' },
-  { name: 'Login', link: '/login' },
-]
 
-export default { products, links }
+export default products
